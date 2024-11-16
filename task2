@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watch.it - Movie Streaming</title>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;700&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">watch.it</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#movies">Movies</a></li>
+                <li><a href="#tv-shows">TV Shows</a></li>
+                <li><a href="#my-list">My List</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-container">
+        <section id="movies" class="movie-section">
+            <h1>Trending Movies</h1>
+            <div class="movie-grid">
+                <div class="movie-box">
+                    <img src="images/barbie.jpg" alt="Movie 1">
+                    <p> Barbie (2023)</p>
+                    <p>
+                        Step into the dazzling world of Barbie as she embarks on an unexpected journey from her perfect doll life to the real world. 
+                        Filled with humor, heart, and empowering messages, this vibrant adventure redefines what it means to dream big!</p>
+                </div>
+                <div class="movie-box">
+                    <img src="images/hidden-figures.jpg" alt="Movie 2">
+                    <p>Hidden Figures (2016)</p>
+                    <p>Three unsung heroes of NASA's space race take the spotlight in this inspiring true story.
+                         Battling discrimination and defying the odds, these brilliant African-American women prove that intelligence, perseverance, 
+                         and unity can change history and break barriers.</p>
+                </div>
+                <div class="movie-box">
+                    <img src="images/hook.jpg" alt="Movie 3">
+                    <p>Hook (1991)</p>
+                    <p>Rediscover Neverland in this thrilling twist on Peter Pan! Robin Williams stars as a grown-up Peter,
+                         who must rediscover his inner child to rescue his kids from the clutches of Captain Hook.
+                          Adventure, magic, and nostalgia blend in this timeless family classic.
+                    </p>
+                </div>
+                <div class="movie-box">
+                    <img src="images/la-la-land.jpg" alt="Movie 4">
+                    <p>La La Land (2016)</p>
+                    <p>Love, dreams, and the magic of LA take center stage in this musical masterpiece. 
+                        Watch as two starry-eyed artists navigate passion and ambition in a world where every moment feels like a cinematic spectacle!</p>
+                </div>
+                <div class="movie-box">
+                    <img src="images/palm-springs.jpg" alt="Movie 5">
+                    <p>Palm Springs (2020)</p>
+                    <p>A never-ending wedding day turns into an unforgettable time-loop romance!
+                         Stuck in the same day, two strangers find love, chaos, and meaning in the most unexpected ways.</p>
+                </div>
+                <div class="movie-box">
+                    <img src="images/who-framed-roger-rabbit.jpg" alt="Movie 6">
+                    <p>Who Framed Roger Rabbit (1988)</p>
+                    <p>In a world where cartoons and humans coexist, a detective must solve a zany, high-stakes mystery. 
+                        Packed with wild humor, groundbreaking animation, and noir twists, this unique film will pull you into a world where anything is possible!
+                        .</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 watch.it. All rights reserved.</p>
+    </footer>
+</body>
+</html>
